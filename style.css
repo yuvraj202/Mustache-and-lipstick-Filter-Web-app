@@ -1,0 +1,25 @@
+body {
+    background-image: url("background.jpg");
+}
+
+h3 {
+    font-size: 25px !important;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin-top: 5%;
+}
+
+
+@keyframes example {
+    from {
+        box-shadow: 50px 50px 558px yellow;
+    }
+
+    to {
+        box-shadow: 50px 50px 558px darkgreen;
+    }
+}
